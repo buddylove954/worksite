@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Myapp</title>
+  <title>DecoDev</title>
   <%= stylesheet_link_tag    'application', media: 'all'%>
-  <%= javascript_include_tag 'application'%>
+  <%= stylesheet_link_tag    'styles', media: 'all'%>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
-
+<%= javascript_include_tag 'application'%>
+<%= javascript_include_tag 'classie'%>
+<%= javascript_include_tag 'cbpAnimatedHeader'%>
+<%= javascript_include_tag 'jqBootstrapValidation'%>
+<%= javascript_include_tag 'contact_me'%>
+<%= javascript_include_tag 'agency'%>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 </body>
 </html>
+
+
