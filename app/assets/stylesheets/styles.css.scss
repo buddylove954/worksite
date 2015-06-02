@@ -290,6 +290,46 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+@media(max-width:500px) {
+    .intro-text .heading{
+        height: 50px;
+    }
+
+    .intro-text .subtitle{
+        height: 25px;
+    }
+}
+
+@media(min-width: 500px) and (max-width:700px) {
+    .intro-text .heading{
+        height: 70px;
+    }
+
+    .intro-text .subtitle{
+        height: 35px;
+    }
+}
+
+@media(min-width: 700px) and (max-width:1000px) {
+    .intro-text .heading{
+        height: 100px;
+    }
+
+    .intro-text .subtitle{
+        height: 50px;
+    }
+}
+
+@media(min-width: 1000px) and (max-width:1200px) {
+    .intro-text .heading{
+        height: 120px;
+    }
+
+    .intro-text .subtitle{
+        height: 60px;
+    }
+}
+
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
